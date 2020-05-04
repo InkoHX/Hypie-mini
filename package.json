@@ -1,10 +1,10 @@
 {
-  "name": "typescript-template",
+  "name": "hypie",
   "version": "0.0.1",
-  "description": "My TypeScript(Node) Template",
+  "description": "Discord.js Framework.",
   "main": "dist/index.js",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/InkoHX/Hypie-mini#readme",
   "author": {
     "name": "InkoHX",
     "email": "inkohx@gmail.com",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/InkoHX/***.git"
+    "url": "https://github.com/InkoHX/Hypie-mini.git"
   },
   "bugs": {
-    "url": "https://github.com/InkoHX/***/issues"
+    "url": "https://github.com/InkoHX/Hypie-mini/issues"
   },
   "funding": {
     "type": "patreon",
@@ -30,8 +30,12 @@
     "watch": "tsc -w -p .",
     "watch:test": "tsc -w -p . --noEmit"
   },
-  "dependencies": {},
-  "peerDependencies": {},
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "peerDependencies": {
+    "discord.js": ">=12.2.0"
+  },
   "devDependencies": {
     "@inkohx/eslint-config-codestyle": "^2.1.1",
     "@types/node": "^13.13.2",
