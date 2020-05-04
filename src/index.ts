@@ -1,1 +1,1 @@
-/** Let's Coding */
+export * from './HypieClient'
